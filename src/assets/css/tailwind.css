@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-[#18191C] text-white
+}
+
+/* .mainLogo {
+    font-size:14px;
+    line-height: 18px;
+    h1 {
+        font-weight: 600;
+    }
+    span {
+        color:#fff;
+        opacity: 0.58;
+    }
+} */
