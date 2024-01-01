@@ -1,11 +1,13 @@
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import Sidebar from "../main/sidebar";
+import MainContent from "./content";
 
 export default function MainLayout() {
     return (
         <div className="flex">
             <Sidebar />
-            <Outlet />
+            <MainContent />
+            {/* <Outlet /> */}
         </div>
     )
 }
