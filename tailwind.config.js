@@ -8,6 +8,12 @@ export default {
     extend: {
       boxShadow: {
         box:'rgba(255, 255, 255, 0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px'
+      },
+      width: {
+        '17': '17rem',
+      },
+      fontFamily: {
+        plus: ["Inter", "sans-serif"]
       }
     },
   },

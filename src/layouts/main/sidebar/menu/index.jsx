@@ -4,11 +4,13 @@ import { mainMenu } from '../../../../utils/consts';
 
 export default function Menu() {
     return(
-        <nav className='sideMenu'>
+        <nav className='sideMenu flex flex-col gap-1 pb-6 text-sm'>
             {mainMenu.map((menu, index) => (
-                <NavLink to={menu.path} className='block group' key={menu.id}>
+                <NavLink to={menu.path} className='block' key={menu.id}>
                 {({isActive}) => (
-                    <div className={classNames("flex items-center gap-2 p-2 hover:bg-[#202228] rounded-md transition-all", {"bg-[#101218] hover:bg-[#101218]": isActive})}>
+                    <div className={classNames("flex items-center gap-2  p-2 rounded-lg transition ease-in-out", 
+                    {"hover:bg-[#101218] bg-[#101218] text-[#fff] cursor-default": isActive},
+                    {"hover:bg-[#202228] text-[#fff]": !isActive})}>
                         {menu.icon}
                         <span>{menu.title}</span>
                     </div>
