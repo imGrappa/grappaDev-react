@@ -7,3 +7,6 @@
 body {
     @apply bg-[#18191C] text-white font-plus text-base
 }
+.hover-transform:hover .transform-y-custom {
+    transform:translateY(calc(-100% + 250px));
+}
