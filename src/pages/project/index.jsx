@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { projectList } from "../../components/projectList";
+import Footer from "../../layouts/main/footer";
 
 export default function Project() {
     return (
@@ -35,6 +36,7 @@ export default function Project() {
                         ))}
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )
