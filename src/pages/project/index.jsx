@@ -7,9 +7,9 @@ export default function Project() {
         <div className="content-wrapper w-full pt-20">
             <div className="max-w-2xl mx-auto">
                 <div className="content">
-                    <div>
-                        <h4>Projects</h4>
-                        <span>Coding unforgettable digital experiences.</span>
+                    <div className="mb-10">
+                        <h4 className="text-3xl font-semibold">Projects</h4>
+                        <span className="font-light text-[#858585]">Coding unforgettable digital experiences.</span>
                     </div>
                     <div className="content-flex gap-4 grid grid-cols-2">
                         {projectList.map((item,index) => (
