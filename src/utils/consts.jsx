@@ -1,3 +1,6 @@
+import Figma from '../assets/img/figma.png';
+import Adobe from '../assets/img/xd.png';
+
 export const mainMenu = [
     {
         id:0,
@@ -123,5 +126,21 @@ export const socialNav = [
             <path d="M3 9L4.25 7.75M9 3H4.5M9 3V7.5M9 3L5.75 6.25" stroke="currentColor"/>
             </svg>
         )
+    }
+]
+
+
+export const stackItems = [
+    {
+        id:0,
+        title:'Figma',
+        desc:'Design Tool',
+        icon:`${Figma}`,
+    },
+    {
+        id:1,
+        title:'Adobe XD',
+        desc:'Design Tool',
+        icon:`${Adobe}`,
     }
 ]

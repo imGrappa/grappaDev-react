@@ -1,5 +1,3 @@
-// import Button from '../../components/button';
-
 import { Link } from "react-router-dom";
 import { projects } from "../../components/projects";
 import { socialNav } from "../../utils/consts";
