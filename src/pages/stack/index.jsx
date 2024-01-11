@@ -1,4 +1,5 @@
 import StackList from "../../components/stackList";
+import Footer from "../../layouts/main/footer";
 
 export default function Stack() {
     return (
@@ -13,6 +14,7 @@ export default function Stack() {
                         <StackList />
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     )

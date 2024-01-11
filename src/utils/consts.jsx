@@ -1,5 +1,16 @@
 import Figma from '../assets/img/figma.png';
 import Adobe from '../assets/img/xd.png';
+import Html from '../assets/img/html5.png';
+import Css from '../assets/img/css3.png';
+import Tailwind from '../assets/img/tailwind.png';
+import Javascript from '../assets/img/js.png';
+import Jquery from '../assets/img/jquery.png';
+import React from '../assets/img/react.png';
+import Github from '../assets/img/github.png';
+import Git from '../assets/img/git.png';
+import Vercel from '../assets/img/vercel.png';
+import Bootstrap from '../assets/img/bootstrap.png';
+import Vscode from '../assets/img/vscode.png';
 
 export const mainMenu = [
     {
@@ -130,7 +141,7 @@ export const socialNav = [
 ]
 
 
-export const stackItems = [
+export const stackDesign = [
     {
         id:0,
         title:'Figma',
@@ -142,5 +153,74 @@ export const stackItems = [
         title:'Adobe XD',
         desc:'Design Tool',
         icon:`${Adobe}`,
+    },
+]
+
+export const stackDev = [
+    {
+        id:0,
+        title:'Html5',
+        desc:'Development Tool',
+        icon:`${Html}`,
+    },
+    {
+        id:1,
+        title:'Css3',
+        desc:'Development Tool',
+        icon:`${Css}`,
+    },
+    {
+        id:2,
+        title:'Bootstrap 5',
+        desc:'Css Library',
+        icon:`${Bootstrap}`,
+    },
+    {
+        id:3,
+        title:'Tailwind Css',
+        desc:'Css Library',
+        icon:`${Tailwind}`,
+    },
+    {
+        id:4,
+        title:'JavaScript',
+        desc:'Development Tool',
+        icon:`${Javascript}`,
+    },
+    {
+        id:5,
+        title:'jQuery',
+        desc:'Javascript Library',
+        icon:`${Jquery}`,
+    },
+    {
+        id:6,
+        title:'React JS',
+        desc:'Javascript Library',
+        icon:`${React}`,
+    },
+    {
+        id:7,
+        title:'Github',
+        desc:'Version Control System',
+        icon:`${Github}`,
+    },
+    {
+        id:8,
+        title:'Git',
+        desc:'Version Control System',
+        icon:`${Git}`,
+    },
+    {
+        id:9,
+        title:'Vercel',
+        desc:'Cloud Platform',
+        icon:`${Vercel}`,
+    },
+    {
+        id:10,
+        title:'Visual Studio Code',
+        desc:'Code Editor',
+        icon:`${Vscode}`,
     }
 ]
