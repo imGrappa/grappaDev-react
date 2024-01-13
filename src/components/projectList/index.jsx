@@ -1,3 +1,11 @@
+import Ozan from '../../assets/img/ozan-min.webp';
+import Klamp from '../../assets/img/klamp-min.webp';
+import Payfull from '../../assets/img/payfull-min.webp';
+import Paybull from '../../assets/img/paybull-min.webp';
+import Besiktas from '../../assets/img/aci-min.webp';
+import Teti from '../../assets/img/teti-min.webp';
+import Magento from '../../assets/img/magento-min.webp';
+import Heeybe from '../../assets/img/heeybe-min.webp';
 
 export const projectList = [
     {
@@ -5,7 +13,7 @@ export const projectList = [
         name:'Ozan SuperApp',
         title:'Front-end Development',
         date:'2022',
-        img:'http://korayaslan.com/portfolio/assets/img/ozan.png',
+        img:`${Ozan}`,
         link:'http://korayaslan.com/portfolio/assets/img/ozan.png',
     },
     {
@@ -13,7 +21,7 @@ export const projectList = [
         name:'KlampHost',
         title:'Front-end Development',
         date:'2021',
-        img:'http://korayaslan.com/portfolio/assets/img/klamp.png',
+        img:`${Klamp}`,
         link:'http://korayaslan.com/portfolio/assets/img/klamp.png',
     },
     {
@@ -21,7 +29,7 @@ export const projectList = [
         name:'Payfull',
         title:'Front-end Development',
         date:'2020',
-        img:'http://korayaslan.com/portfolio/assets/img/payfull.png',
+        img:`${Payfull}`,
         link:'http://korayaslan.com/portfolio/assets/img/payfull.png',
     },
     {
@@ -29,7 +37,7 @@ export const projectList = [
         name:'Paybull',
         title:'Front-end Development',
         date:'2020',
-        img:'http://korayaslan.com/portfolio/assets/img/paybull.png',
+        img:`${Paybull}`,
         link:'http://korayaslan.com/portfolio/assets/img/paybull.png',
     },
     {
@@ -37,7 +45,7 @@ export const projectList = [
         name:'Besiktas Aci',
         title:'Front-end Development',
         date:'2020',
-        img:'http://korayaslan.com/portfolio/assets/img/aci.png',
+        img:`${Besiktas}`,
         link:'http://korayaslan.com/portfolio/assets/img/aci.png',
     },
     {
@@ -45,7 +53,7 @@ export const projectList = [
         name:'TetiMall',
         title:'Front-end Development',
         date:'2020',
-        img:'http://korayaslan.com/portfolio/assets/img/teti.png',
+        img:`${Teti}`,
         link:'http://korayaslan.com/portfolio/assets/img/teti.png',
     },
     {
@@ -53,7 +61,7 @@ export const projectList = [
         name:'MagentoTR',
         title:'Front-end Development',
         date:'2019',
-        img:'http://korayaslan.com/portfolio/assets/img/magento.png',
+        img:`${Magento}`,
         link:'http://korayaslan.com/portfolio/assets/img/magento.png',
     },
     {
@@ -61,7 +69,7 @@ export const projectList = [
         name:'Heeybe',
         title:'Front-end Development',
         date:'2019',
-        img:'http://korayaslan.com/portfolio/assets/img/heeybe.png',
+        img:`${Heeybe}`,
         link:'http://korayaslan.com/portfolio/assets/img/heeybe.png',
     }
 ]
