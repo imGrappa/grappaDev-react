@@ -2,9 +2,9 @@ import Logo from '../sidebar/logo';
 import Menu from '../sidebar/menu';
 import Social from '../sidebar/social';
 
-export default function Sidebar() {
+export default function Sidebar({ isOpen }) {
     return(
-        <aside className="w-17 max-h-screen overflow-auto min-h-screen bg-[#1B1C20] py-6 px-3 border-solid border-r-[1px] border-[#252629]">
+        <aside className={`w-3/4 md:w-2/4 lg:w-17 max-h-screen  lg:translate-x-0 overflow-auto min-h-screen bg-[#1B1C20] py-6 px-3 border-solid border-r border-[#252629] absolute lg:relative left-0 z-30 lg:z-auto transition-all duration-200 ${isOpen ? "" : "-translate-x-full "}`}>
             <Logo />
             <Menu />
             <Social />
