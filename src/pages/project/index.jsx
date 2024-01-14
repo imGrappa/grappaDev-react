@@ -16,12 +16,13 @@ export default function Project() {
                 <div className="content">
                     <div className="content-flex gap-4 grid grid-cols-2">
                         {projectList.map((item,index) => (
-                            <div className="flex-1 border border-[#252629] rounded-xl overflow-hidden">
-                                <Link to={item.link} key={item.id} target="_blank" className="group hover-transform">
+                            <div key={item.id}  className="flex-1 border border-[rgba(255,255,255,0.05)] rounded-xl overflow-hidden">
+                                <Link to={item.link} target="_blank" className="group hover-transform">
                                     <div  className="overflow-hidden relative h-[250px]">
                                         <img 
                                             src={item.img} 
                                             alt={`${item.name} Frontend Development`} 
+                                            width="326" height="250"
                                             loading="lazy"
                                             className="relative top-[0px] object-cover transform-y-custom rounded-t-xl transition-all duration-[3s]"
                                         />
@@ -32,7 +33,7 @@ export default function Project() {
                                             <span className="text-[#858585] text-sm">{item.title}</span>
                                         </div>
                                         <div>
-                                            <div className="rounded-full px-3 py-1 border border-[#252629] text-xs text-[#858585]">{item.date}</div>
+                                            <div className="rounded-full px-3 py-1 border border-[rgba(255,255,255,0.05)] text-xs text-[#858585]">{item.date}</div>
                                         </div>
                                     </div>
                                 </Link>
