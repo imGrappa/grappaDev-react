@@ -13,7 +13,7 @@ export default function MainLayout() {
 
     return (
         <div className="lg:flex">
-            <Sidebar isOpen={sidebarOpen} />
+            <Sidebar isOpen={sidebarOpen} onCloseSidebar={() => setSidebarOpen(false)} />
             <MobileHeader onToggleSidebar={toggleSidebar} />
             <MainContent />
         </div>

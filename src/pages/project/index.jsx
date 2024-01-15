@@ -14,7 +14,7 @@ export default function Project() {
                     <span className="font-light text-[#858585]">Coding unforgettable digital experiences.</span>
                 </div>
                 <div className="content">
-                    <div className="content-flex gap-4 grid grid-cols-2">
+                    <div className="content-flex gap-7 sm:gap-4 grid grid-cols-1 sm:grid-cols-2">
                         {projectList.map((item,index) => (
                             <div key={item.id}  className="flex-1 border border-[rgba(255,255,255,0.05)] rounded-xl overflow-hidden">
                                 <Link to={item.link} target="_blank" className="group hover-transform">
@@ -24,7 +24,7 @@ export default function Project() {
                                             alt={`${item.name} Frontend Development`} 
                                             width="326" height="250"
                                             loading="lazy"
-                                            className="relative top-[0px] object-cover transform-y-custom rounded-t-xl transition-all duration-[3s]"
+                                            className="relative w-full top-[0px] object-cover transform-y-custom rounded-t-xl transition-all duration-[3s]"
                                         />
                                     </div>
                                     <div className="flex items-center justify-between px-4 py-3 backdrop-blur-lg">

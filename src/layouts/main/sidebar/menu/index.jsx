@@ -2,11 +2,22 @@ import {NavLink} from 'react-router-dom';
 import classNames from 'classnames';
 import { mainMenu } from '../../../../utils/consts';
 
-export default function Menu() {
+export default function Menu({ onCloseSidebar }) {
+
+    const handleNavLinkClick = () => {
+        // NavLink'e tıklandığında Sidebar'ı kapat
+        onCloseSidebar();
+    };
+
     return(
         <nav className='sideMenu flex flex-col gap-1 pb-6 text-sm'>
             {mainMenu.map((menu, index) => (
-                <NavLink to={menu.path} className='block' key={menu.id}>
+                <NavLink 
+                    to={menu.path} 
+                    className='block' 
+                    key={menu.id}
+                    onClick={handleNavLinkClick}
+                >
                 {({isActive}) => (
                     <div className={classNames("flex items-center gap-2  p-2 rounded-lg transition ease-in-out", 
                     {"hover:bg-[#101218] bg-[#101218] text-[#fff] cursor-default": isActive},
