@@ -6,7 +6,7 @@ import Footer from "../../layouts/main/footer";
 
 export default function Home() {
     return (
-        <div className="content-wrapper w-full pt-20">
+        <div className="content-wrapper w-full pt-20 px-5">
             <div className="max-w-2xl mx-auto">
                 <div className="content flex flex-col gap-6 font-light">
                     <p>
@@ -47,9 +47,9 @@ export default function Home() {
                     <div className="flex flex-col gap-4 pt-10">
                         <span className="pb-1 font-semibold">Works</span>
                         {works.map((menu, index) => (
-                            <Link to={menu.link} key={menu.id} target="_blank" className="flex gap-6 items-center justify-between text-sm text-[#858585] hover:text-[#fff] transition-colors">
+                            <Link to={menu.link} key={menu.id} target="_blank" className="flex flex-col sm:flex-row-reverse gap-0 sm:gap-6 sm:items-center sm:justify-between text-sm text-[#858585] hover:text-[#fff] transition-colors">
                                 <span>{menu.company}</span>
-                                <div className=" h-[1px] bg-transparent border-[#262626] flex-1 border-t border-dashed"></div>
+                                <div className=" h-[1px] bg-transparent border-[#262626] flex-1 border-t border-dashed hidden sm:flex"></div>
                                 <div className="flex items-center gap-4">
                                     <span className="text-sm text-[#a3a3a3] font-light">{menu.title}</span>
                                     <span className="text-sm text-[#858585]">{menu.date}</span>

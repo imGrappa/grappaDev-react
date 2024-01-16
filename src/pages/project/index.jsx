@@ -4,7 +4,7 @@ import Footer from "../../layouts/main/footer";
 
 export default function Project() {
     return (
-        <div className="content-wrapper w-full pt-20 relative dark">
+        <div className="content-wrapper w-full pt-20 px-5 relative dark">
             <div className="absolute inset-0 overflow-hidden">
                 <div className="jumbo absolute -inset-[10px] opacity-50"></div>
             </div>

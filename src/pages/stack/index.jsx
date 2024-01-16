@@ -3,7 +3,7 @@ import Footer from "../../layouts/main/footer";
 
 export default function Stack() {
     return (
-        <div className="content-wrapper w-full pt-20">
+        <div className="content-wrapper w-full pt-20 px-5">
             <div className="max-w-2xl mx-auto relative z-10">
                 <div className="mb-10">
                     <h4 className="text-3xl font-semibold">Stack</h4>

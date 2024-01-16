@@ -3,7 +3,6 @@ import Avatar from '../../../../assets/img/avatar.jpeg';
 export default function Logo({ onCloseSidebar }) {
 
     const handleLogoClick = () => {
-        // Logo'ya tıklandığında onCloseSidebar fonksiyonunu çağırarak Sidebar'ın durumunu güncelle
         onCloseSidebar();
     };
 

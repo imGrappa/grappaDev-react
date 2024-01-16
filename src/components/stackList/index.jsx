@@ -7,7 +7,7 @@ export default function StackList() {
                 <div className="px-3 pt-3">
                     <h5>Design</h5>
                 </div>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-2">
                     {stackDesign.map((item,index) => (
                         <div className="flex items-center gap-4 p-3 rounded-lg border border-[transparent] hover:border hover:border-[#252629] hover:bg-[#1B1C20] transition-all duration-300 cursor-default" key={item.id}>
                             <div><img className="w-10 h-10 object-cover rounded-lg" src={item.icon} alt="" /></div>
@@ -23,7 +23,7 @@ export default function StackList() {
                 <div className="px-3 pt-3">
                     <h5>Development</h5>
                 </div>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-2">
                     {stackDev.map((item,index) => (
                         <div className="flex items-center gap-4 p-3 rounded-lg border border-[transparent] hover:border hover:border-[#252629] hover:bg-[#1B1C20] transition-all duration-300 cursor-default" key={item.id}>
                             <div><img className="w-10 h-10 object-cover rounded-lg" src={item.icon} alt="" /></div>

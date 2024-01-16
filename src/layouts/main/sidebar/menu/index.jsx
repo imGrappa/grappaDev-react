@@ -4,10 +4,11 @@ import { mainMenu } from '../../../../utils/consts';
 
 export default function Menu({ onCloseSidebar }) {
 
-    const handleNavLinkClick = () => {
-        // NavLink'e tıklandığında Sidebar'ı kapat
-        onCloseSidebar();
-    };
+    // const handleNavLinkClick = (e) => {
+    //     // NavLink'e tıklandığında Sidebar'ı kapat
+    //     onCloseSidebar()
+    //     e.preventDefault();
+    // };
 
     return(
         <nav className='sideMenu flex flex-col gap-1 pb-6 text-sm'>
@@ -16,7 +17,7 @@ export default function Menu({ onCloseSidebar }) {
                     to={menu.path} 
                     className='block' 
                     key={menu.id}
-                    onClick={handleNavLinkClick}
+                    // onClick={handleNavLinkClick}
                 >
                 {({isActive}) => (
                     <div className={classNames("flex items-center gap-2  p-2 rounded-lg transition ease-in-out", 

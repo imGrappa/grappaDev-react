@@ -11,6 +11,7 @@ import Git from '../assets/img/git.png';
 import Vercel from '../assets/img/vercel.png';
 import Bootstrap from '../assets/img/bootstrap.png';
 import Vscode from '../assets/img/vscode.png';
+import Sass from '../assets/img/sass.png';
 
 export const mainMenu = [
     {
@@ -195,5 +196,11 @@ export const stackDev = [
         title:'Visual Studio Code',
         desc:'Code Editor',
         icon:`${Vscode}`,
+    },
+    {
+        id:11,
+        title:'Sass',
+        desc:'Css Library',
+        icon:`${Sass}`,
     }
 ]
